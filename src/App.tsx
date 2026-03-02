@@ -9,6 +9,8 @@ import Navbar from "@/components/Navbar";
 import Index from "./pages/Index";
 import Articles from "./pages/Articles";
 import ArticlePage from "./pages/ArticlePage";
+import Seminars from "./pages/Seminars";
+import SeminarPage from "./pages/SeminarPage";
 import About from "./pages/About";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
@@ -17,6 +19,8 @@ import AdminCategories from "./pages/AdminCategories";
 import AdminChangePassword from "./pages/AdminChangePassword";
 import AdminAnalytics from "./pages/AdminAnalytics";
 import AdminAbout from "./pages/AdminAbout";
+import AdminSeminars from "./pages/AdminSeminars";
+import AdminSeminarForm from "./pages/AdminSeminarForm";
 import NotFound from "./pages/NotFound";
 import { useAuth } from "@/hooks/useAuth";
 
@@ -31,6 +35,8 @@ const AppContent = () => {
       <Route path="/" element={<Index />} />
       <Route path="/articles" element={<Articles />} />
       <Route path="/article/:slug" element={<ArticlePage />} />
+      <Route path="/seminars" element={<Seminars />} />
+      <Route path="/seminars/:slug" element={<SeminarPage />} />
       <Route path="/about" element={<About />} />
       
       {/* Admin Routes */}
@@ -42,6 +48,9 @@ const AppContent = () => {
       <Route path="/admin/categories" element={<AdminCategories />} />
       <Route path="/admin/change-password" element={<AdminChangePassword />} />
       <Route path="/admin/about" element={<AdminAbout />} />
+      <Route path="/admin/seminars" element={<AdminSeminars />} />
+      <Route path="/admin/seminars/new" element={<AdminSeminarForm />} />
+      <Route path="/admin/seminars/:id/edit" element={<AdminSeminarForm />} />
       
       {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
       <Route path="*" element={<NotFound />} />
