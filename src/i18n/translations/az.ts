@@ -4,6 +4,7 @@ export const az = {
     home: "Ana səhifə",
     about: "Haqqımda",
     articles: "Məqalələr",
+    seminars: "Seminarlar",
     admin: "İdarəetmə",
   },
 
@@ -151,6 +152,18 @@ articlesPage: {
   readingTime: "dəq oxu",
 },
 
+// Seminars Page
+seminarsPage: {
+  professionalCourses: "Peşəkar Təlimlər",
+  title: "Seminarlar",
+  subtitle: "Araşdırma mövzuları üzrə baş tutacaq olan seminarlar",
+  search: "Seminar axtar...",
+  upcoming: "Tezliklə",
+  completed: "Keçmiş seminarlar",
+  noSeminars: "Heç bir seminar yoxdur",
+  seminar: "Seminar",
+},
+
 // About Page
 aboutPage: {
   headerAbout: "Haqqımda",
@@ -252,6 +265,53 @@ admin: {
   cancel: "Ləğv et",
   createArticle: "Məqalə yarat",
   editArticle: "Məqaləni redaktə et",
-  required: "tələb olunur",
+  required: "required",
+
+  // Seminars Management
+  seminars: "Seminarlar",
+  manageSeminars: "Seminarları idarə edin",
+  newSeminar: "Yeni Seminar",
+  editSeminar: "Seminarı redaktə et",
+  createSeminar: "Yeni Seminar yarat",
+  deleteSeminar: "Seminarı sil",
+  deleteSeminarConfirm: "Bu seminarı silmək istədiyinizə əminsiniz?",
+  seminarDeleted: "Seminar uğurla silindi",
+  seminarCreated: "Seminar uğurla yaradıldı",
+  seminarUpdated: "Seminar uğurla yeniləndi",
+  
+  // Seminar Form Fields
+  slug: "Keçid",
+  topic: "Mövzu",
+  startDate: "Başlanğıc tarixi",
+  startTime: "Başlanğıc vaxtı",
+  endDate: "Bitmə tarixi",
+  endTime: "Bitmə vaxtı",
+  format: "Format",
+  location: "Məkan",
+  platformLink: "Platforma Linki",
+  registrationLink: "Qeydiyyat Linki",
+  coverImage: "Başlıq şəkli",
+  selectImage: "Şəkil seç",
+  status: "Status",
+  publish: "Paylaş",
+  published: "Paylaşıldı",
+  unpublished: "Silindi",
+  online: "Onlayn",
+  offline: "Oflayn",
+  hybrid: "Hibrid",
+  
+  // Seminar Details
+  seminarDetails: "Seminar Detayları",
+  basicInformation: "Əsas məlumatlar",
+  formatAndLocation: "Format & Adres",
+  translations: "Tərcümələr",
+  englishTitle: "İngiliscə Başlıq",
+  englishDescription: "İngiliscə Təsvir",
+  azerbaijaniTitle: "Azərbaycanca Başlıq",
+  azerbaijaniDescription: "Azərbaycanca Təsvir",
+  russianTitle: "Rusca Başlıq",
+  russianDescription: "Rusca Təsvir",
+  turkishTitle: "Türkcə Başlıq",
+  turkishDescription: "Türkcə Təsvir",
 },
 } as const;
