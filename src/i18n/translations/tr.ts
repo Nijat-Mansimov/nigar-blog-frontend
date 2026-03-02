@@ -4,6 +4,7 @@ export const tr = {
     home: "Ana Sayfa",
     about: "Hakkımda",
     articles: "Makaleler",
+    seminars: "Seminerler",
     admin: "Yönetim",
   },
 
@@ -152,6 +153,18 @@ articlesPage: {
   readingTime: "dk okuma",
 },
 
+// Seminars Page
+seminarsPage: {
+  professionalCourses: "Profesyonel Seminerler",
+  title: "Seminerler",
+  subtitle: "Profesyonel gelişiminiz için pratik seminerler",
+  search: "Seminer ara...",
+  upcoming: "Yaklaşan",
+  completed: "Tamamlanan",
+  noSeminars: "Seminer bulunamadı",
+  seminar: "Seminer",
+},
+
 // About Page
 aboutPage: {
   headerAbout: "Hakkında",
@@ -253,5 +266,52 @@ admin: {
   createArticle: "Makale Oluştur",
   editArticle: "Makaleyi Düzenle",
   required: "zorunlu",
+
+  // Seminars Management
+  seminars: "Seminerler",
+  manageSeminars: "Seminerleri Yönet",
+  newSeminar: "Yeni Seminer",
+  editSeminar: "Semineri Düzenle",
+  createSeminar: "Yeni Seminer Oluştur",
+  deleteSeminar: "Semineri Sil",
+  deleteSeminarConfirm: "Bu semineri silmek istediğinizden emin misiniz?",
+  seminarDeleted: "Seminer başarıyla silindi",
+  seminarCreated: "Seminer başarıyla oluşturuldu",
+  seminarUpdated: "Seminer başarıyla güncellendi",
+  
+  // Seminar Form Fields
+  slug: "Slug",
+  topic: "Konu",
+  startDate: "Başlama Tarihi",
+  startTime: "Başlama Saati",
+  endDate: "Bitiş Tarihi",
+  endTime: "Bitiş Saati",
+  format: "Format",
+  location: "Konum",
+  platformLink: "Platform Bağlantısı",
+  registrationLink: "Kayıt Bağlantısı",
+  coverImage: "Kapak Resmi",
+  selectImage: "Resim Seç",
+  status: "Durum",
+  publish: "Yayınla",
+  published: "Yayınlandı",
+  unpublished: "Yayınlanmadı",
+  online: "Çevrimiçi",
+  offline: "Yüz yüze",
+  hybrid: "Hibrit",
+  
+  // Seminar Details
+  seminarDetails: "Seminer Detayları",
+  basicInformation: "Temel Bilgiler",
+  formatAndLocation: "Format ve Konum",
+  translations: "Çeviriler",
+  englishTitle: "İngilizce Başlık",
+  englishDescription: "İngilizce Açıklama",
+  azerbaijaniTitle: "Azerbaycanca Başlık",
+  azerbaijaniDescription: "Azerbaycanca Açıklama",
+  russianTitle: "Rusça Başlık",
+  russianDescription: "Rusça Açıklama",
+  turkishTitle: "Türkçe Başlık",
+  turkishDescription: "Türkçe Açıklama",
 },
 } as const;
