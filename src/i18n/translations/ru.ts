@@ -4,6 +4,7 @@ export const ru = {
     home: "Главная",
     about: "Обо мне",
     articles: "Статьи",
+    seminars: "Семинары",
     admin: "Администрирование",
   },
 
@@ -153,6 +154,18 @@ articlesPage: {
   readingTime: "мин чтения",
 },
 
+// Seminars Page
+seminarsPage: {
+  professionalCourses: "Профессиональные курсы",
+  title: "Семинары",
+  subtitle: "Практические навыки для вашего профессионального развития",
+  search: "Поиск семинара...",
+  upcoming: "Предстоящие",
+  completed: "Завершённые",
+  noSeminars: "Семинары не найдены",
+  seminar: "Семинар",
+},
+
 // About Page
 aboutPage: {
   headerAbout: "О себе",
@@ -254,5 +267,52 @@ admin: {
   createArticle: "Создать статью",
   editArticle: "Редактировать статью",
   required: "обязательно",
+
+  // Seminars Management
+  seminars: "Семинары",
+  manageSeminars: "Управление семинарами",
+  newSeminar: "Новый семинар",
+  editSeminar: "Редактировать семинар",
+  createSeminar: "Создать новый семинар",
+  deleteSeminar: "Удалить семинар",
+  deleteSeminarConfirm: "Вы уверены, что хотите удалить этот семинар?",
+  seminarDeleted: "Семинар успешно удален",
+  seminarCreated: "Семинар успешно создан",
+  seminarUpdated: "Семинар успешно обновлен",
+  
+  // Seminar Form Fields
+  slug: "Slug",
+  topic: "Тема",
+  startDate: "Дата начала",
+  startTime: "Время начала",
+  endDate: "Дата окончания",
+  endTime: "Время окончания",
+  format: "Формат",
+  location: "Местоположение",
+  platformLink: "Ссылка на платформу",
+  registrationLink: "Ссылка на регистрацию",
+  coverImage: "Обложка",
+  selectImage: "Выбрать изображение",
+  status: "Статус",
+  publish: "Опубликовать",
+  published: "Опубликовано",
+  unpublished: "Не опубликовано",
+  online: "Онлайн",
+  offline: "Личное",
+  hybrid: "Гибридный",
+  
+  // Seminar Details
+  seminarDetails: "Подробности семинара",
+  basicInformation: "Общая информация",
+  formatAndLocation: "Формат и местоположение",
+  translations: "Переводы",
+  englishTitle: "Название на английском",
+  englishDescription: "Описание на английском",
+  azerbaijaniTitle: "Название на азербайджанском",
+  azerbaijaniDescription: "Описание на азербайджанском",
+  russianTitle: "Название на русском",
+  russianDescription: "Описание на русском",
+  turkishTitle: "Название на турецком",
+  turkishDescription: "Описание на турецком",
 },
 } as const;
