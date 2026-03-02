@@ -1,4 +1,4 @@
-  import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { adminService } from "@/services/adminService";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -32,6 +32,7 @@ const Navbar = () => {
   const navLinks = [
     { to: "/", label: t('nav.home') },
     { to: "/articles", label: t('nav.articles') },
+    { to: "/seminars", label: t('nav.seminars') || "Seminars" },
     { to: "/about", label: t('nav.about') },
     ...(isAdmin ? [{ to: "/admin/dashboard", label: t('nav.admin') }] : []),
   ];
