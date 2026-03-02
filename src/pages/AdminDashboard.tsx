@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { adminService, Article } from "@/services/adminService";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Trash2, Edit, Plus, Settings, BarChart3, Lock, LogOut, Eye, BookOpen } from "lucide-react";
+import { Trash2, Edit, Plus, Settings, BarChart3, Lock, LogOut, Eye, BookOpen, Presentation } from "lucide-react";
 import {
   Table,
   TableBody,
@@ -176,11 +176,17 @@ const AdminDashboard = () => {
         {/* Quick Actions */}
         <div className="mb-12 border border-rule rounded-lg p-6 bg-card">
           <h2 className="text-lg font-bold text-ink mb-4">Quick Actions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-3">
             <Link to="/admin/articles/new">
               <Button className="w-full gap-2">
                 <Plus size={16} />
                 New Article
+              </Button>
+            </Link>
+            <Link to="/admin/seminars">
+              <Button className="w-full gap-2">
+                <Presentation size={16} />
+                Seminars
               </Button>
             </Link>
             <Link to="/admin/analytics">
