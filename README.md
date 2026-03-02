@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Lovable project cor104@atomicmail.io
 
 ## Project info
 
