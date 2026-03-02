@@ -4,6 +4,7 @@ export const en = {
         home: "Home",
         about: "About",
         articles: "Articles",
+        seminars: "Seminars",
         admin: "Admin",
     },
 
@@ -152,6 +153,18 @@ articlesPage: {
   readingTime: "min read",
 },
 
+// Seminars Page
+seminarsPage: {
+  professionalCourses: "Professional Seminars",
+  title: "Seminars",
+  subtitle: "Practical seminars for your professional development",
+  search: "Search seminars...",
+  upcoming: "Upcoming",
+  completed: "Completed",
+  noSeminars: "No seminars found",
+  seminar: "Seminar",
+},
+
 // About Page
 aboutPage: {
   headerAbout: "About",
@@ -253,5 +266,52 @@ admin: {
   createArticle: "Create Article",
   editArticle: "Edit Article",
   required: "required",
+
+  // Seminars Management
+  seminars: "Seminars",
+  manageSeminars: "Manage Seminars",
+  newSeminar: "New Seminar",
+  editSeminar: "Edit Seminar",
+  createSeminar: "Create New Seminar",
+  deleteSeminar: "Delete Seminar",
+  deleteSeminarConfirm: "Are you sure you want to delete this seminar?",
+  seminarDeleted: "Seminar deleted successfully",
+  seminarCreated: "Seminar created successfully",
+  seminarUpdated: "Seminar updated successfully",
+  
+  // Seminar Form Fields
+  slug: "Slug",
+  topic: "Topic",
+  startDate: "Start Date",
+  startTime: "Start Time",
+  endDate: "End Date",
+  endTime: "End Time",
+  format: "Format",
+  location: "Location",
+  platformLink: "Platform Link",
+  registrationLink: "Registration Link",
+  coverImage: "Cover Image",
+  selectImage: "Select Image",
+  status: "Status",
+  publish: "Publish",
+  published: "Published",
+  unpublished: "Unpublished",
+  online: "Online",
+  offline: "Offline",
+  hybrid: "Hybrid",
+  
+  // Seminar Details
+  seminarDetails: "Seminar Details",
+  basicInformation: "Basic Information",
+  formatAndLocation: "Format & Location",
+  translations: "Translations",
+  englishTitle: "English Title",
+  englishDescription: "English Description",
+  azerbaijaniTitle: "Azerbaijani Title",
+  azerbaijaniDescription: "Azerbaijani Description",
+  russianTitle: "Russian Title",
+  russianDescription: "Russian Description",
+  turkishTitle: "Turkish Title",
+  turkishDescription: "Turkish Description",
 },
 } as const;
